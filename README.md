@@ -1,4 +1,4 @@
-# Installing Odoo 16.0 with one command (Supports multiple Odoo instances on one server).
+# Installing Odoo 13.0 with one command (Supports multiple Odoo instances on one server).
 
 ## Quick Installation
 
@@ -32,7 +32,7 @@ Start the container:
 ``` sh
 docker-compose up
 ```
-Then open `localhost:10016` to access Odoo 16.0.
+Then open `localhost:10016` to access Odoo 13.0.
 
 - **If you get any permission issues**, change the folder permission to make sure that the container is able to access the directory:
 
@@ -121,10 +121,10 @@ server {
 
 ## docker-compose.yml
 
-* odoo:16.0
+* odoo:13.0
 * postgres:15
 
-## Odoo 16.0 screenshots after successful installation.
+## Odoo 13.0 screenshots after successful installation.
 
 <img src="screenshots/odoo-16-welcome-screenshot.png" width="50%">
 
